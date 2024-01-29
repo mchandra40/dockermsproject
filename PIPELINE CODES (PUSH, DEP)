@@ -28,10 +28,8 @@ pipeline {
                 sh 'docker stack deploy -c docker-compose.yml paytm'
             }
         }
-        stage('deploy') {
-            steps {
-                sh 'docker stack deploy -c docker-compose.yml paytm'
-            }
-        }
     }
 }
+
+
+NOTE: ADD PARAMETERS FOR VARIABLES 
